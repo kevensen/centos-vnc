@@ -2,7 +2,7 @@
 # Version 1
 
 # Pull the rhel image from the local repository
-FROM centos6:latest
+FROM centos:6.6
 MAINTAINER Ken Evensen
 
 USER root
