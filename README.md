@@ -1,5 +1,10 @@
-# docker-rhel-vnc
+# centos-vnc
 Run Firefox inside a CentOS 6 based docker container.  This is the first container you should build.
+
+Or you can simply pull the image.
+```
+docker pull docker.io/kevensen/centos-vnc
+```
 
 ##Instructions for Building
 ```
