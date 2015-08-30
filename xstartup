@@ -8,4 +8,3 @@ unset SESSION_MANAGER
 unset DBUS_SESSION_BUS_ADDRESS
 OS=`uname -s`
 gnome-session &
-/usr/bin/firefox
