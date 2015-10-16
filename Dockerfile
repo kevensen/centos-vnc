@@ -15,4 +15,4 @@ ADD passwd /home/basicuser/.vnc/
 RUN chown -R basicuser:basicuser /home/basicuser; chmod a+x /home/basicuser/.vnc/xstartup; chmod 600 /home/basicuser/.vnc/passwd
 EXPOSE 5901
 
-ENTRYPOINT ["/usr/bin/vncserver", "-fg", "-geometery","1280x1024","-depth","24"]
+ENTRYPOINT ["/usr/bin/vncserver", "-fg"]
